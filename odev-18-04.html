@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <style>
+        div{
+            /* border: 1px solid red; */
+        }
+        label{
+            display: inline-block;
+            /* border: black 1px solid; */
+            width: 100px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div style="border: 1px solid" margin="0" auto>
+      <div style="width: 50%; margin:auto">
+        <form action="result.html" method="get">
+          <div>
+            <h2 align="center">
+              <span style="color: rgb(218, 12, 12)">Registration Form</span>
+            </h2>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="Firstname" id="firstname" />
+          </div>
+          <br />
+          <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="Lastname" id="lastname" />
+          </div>
+          <br />
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="Email" id="email" />
+          </div>
+          <br />
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="Password" id="password" />
+          </div>
+          <br />
+          <div>
+            <label for="birth">Date of Birth:</label>
+            <input type="date" name="birthdate" id="birth" value="2023-12-23" />
+          </div>
+          <br />
+          <div>
+            <label for="gender">Gender:</label> <br />
+            <br />
+            <input type="radio" name="Gender" id="gender" />
+            <label for="female">Female</label>
+
+            <input type="radio" name="Gender" id="gender" />
+            <label for="male">Male</label>
+          </div>
+          <br />
+          <div>
+            <label for="telephone">Telephone:</label>
+            <input type="tel" name="Telephone" id="telephone" />
+          </div>
+          <br />
+          <input type="submit" value="SUBMIT" />
+          <input type="reset" value="CLEAR" /> 
+        </form> <br>
+      </div>
+    </div>
+  </body>
+</html>
